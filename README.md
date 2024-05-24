@@ -71,7 +71,7 @@ The training process will output various charts, including training loss and acc
 
 - **Training Loss and Accuracy:**
 
-  ![ANN Loss and Accuracy](ANN Loss and Accuracy.png)
+  ![ANN Loss and Accuracy](ANN_Loss_and_Accuracy.png)
 
   ![CNN Loss and Accuracy](CNN Loss and Accuracy.png)
 
