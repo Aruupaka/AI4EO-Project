@@ -75,11 +75,11 @@ The training process will output various charts, including training loss and acc
   
   ![ANN Loss and Accuracy](ANN_Loss_and_Accuracy.png)
   
-  **CNN Loss and Accuracy**:
+  CNN Loss and Accuracy:
   
   ![CNN Loss and Accuracy](CNN_Loss_and_Accuracy.png)
   
-  **ViT Loss and Accuracy**:
+  ViT Loss and Accuracy:
   
   ![ViT Loss and Accuracy](ViT_Loss_and_Accuracy.png)
   
