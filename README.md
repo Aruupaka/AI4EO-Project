@@ -14,7 +14,15 @@ This project demonstrates image classification using Artificial Neural Networks 
 
 ## Introduction
 
-This project implements image classification using various neural network architectures: ANN, CNN, and ViT. It covers data augmentation, model training, and evaluation, and ultimately displays the performance and prediction results of the different models.
+In this project, we aim to explore the effectiveness of Artificial Neural Networks (ANN) Convolutional Neural Networks (CNN) and Vision Transformer (ViT) in categorizing satellite images into different land cover classes. In order to compare these models, I have selected several methods to evaluate the models, including
+
+Training and Validation Accuracy:Counting the accuracy of each epoch during training helps us to see how well the model is learning to detect any signs of overfitting or underfitting.
+
+Training and Validation Loss: These metrics can help us understand the performance of the model from another perspective - how the error decreases over time.
+
+Confusion Matrix: It helps identify which categories are well-predicted and which are often confused with others.
+
+Plotting Sample Predictions: A number of randomly selected samples of satellite imagery from each category are plotted to show their predictions with their true labels and provide confidence scores to visualize the predictive effectiveness of the model.
 
 ## Installation
 
