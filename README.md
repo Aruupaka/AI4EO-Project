@@ -9,8 +9,7 @@ This project demonstrated image classification using Artificial Neural Networks 
 - [Project Structure](#project-structure)
 - [Model Description](#model-description)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+- [Reference](#Reference)
 
 ## Introduction
 
