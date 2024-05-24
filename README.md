@@ -71,7 +71,7 @@ The training process will output various charts, including training loss and acc
 
 ### **Training Loss and Accuracy:**
 
-  **ANN Loss and Accuracy**:
+  ANN Loss and Accuracy:
   
   ![ANN Loss and Accuracy](ANN_Loss_and_Accuracy.png)
   
@@ -85,21 +85,21 @@ The training process will output various charts, including training loss and acc
   
 ### **Confusion Matrix:**
 
-  **CNN Confusion Matrix**:
+  CNN Confusion Matrix:
   
   ![CNN Confusion Matrix](CNN_Confusion_Matrix.png)
   
-  **ViT Confusion Matrix**:
+  ViT Confusion Matrix:
   
   ![ViT Confusion Matrix](ViT_Confusion_Matrix.png)
 
 ### **Sample Predictions:**
 
-  **CNN Sample Predictions**:
+  CNN Sample Predictions:
   
   ![CNN Sample Predictions](CNN_Sample_Predictions.png)
   
-  **ViT Sample Predictions**:
+  ViT Sample Predictions:
   
   ![ViT Sample Predictions](ViT_Sample_Predictions.png)
 
