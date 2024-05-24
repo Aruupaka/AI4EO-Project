@@ -1,6 +1,6 @@
 # AI4EO-Project
 
-This project demonstrates image classification using Artificial Neural Networks (ANN), Convolutional Neural Networks (CNN), and Vision Transformers (ViT). It showcases the complete workflow from data loading and model training to result visualization.
+This project demonstrated image classification using Artificial Neural Networks (ANN), Convolutional Neural Networks (CNN), and Visual Transformers (ViT) to classify land use and land cover in a dataset.It showcases the complete workflow from data loading and model training to result visualization.The dataset comprises satellite images from the Sentinel-2 mission，
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -45,9 +45,7 @@ Clone the repository or download the notebook
     ```
 
 2. Run the Jupyter Notebook to perform model training and evaluation:
-    ```bash
-    jupyter notebook Project.ipynb
-    ```
+
 
 ## Project Structure
 
@@ -59,10 +57,10 @@ Clone the repository or download the notebook
 This project uses three different neural network models for image classification:
 
 1. **Artificial Neural Network (ANN)**:
-    - A basic neural network model suitable for simple image classification tasks.
+    - ANN is the most basic neural network model and is only suitable for simple image classification tasks.
 
 2. **Convolutional Neural Network (CNN)**:
-    - A model that extracts spatial features from images, suitable for handling image data.
+    - CNN introduces convolution and pooling operations on the basis of ANN to make effective use of spatial information and local correlation of images, which is suitable for processing image data.
 
 3. **Vision Transformer (ViT)**:
     - A transformer-based model that can effectively handle global information in images.
@@ -73,26 +71,28 @@ The training process will output various charts, including training loss and acc
 
 - **Training Loss and Accuracy:**
 
-  ![Loss and Accuracy](path/to/loss_accuracy_plot.png)
+  ![ANN Loss and Accuracy](path/to/loss_accuracy_plot.png)
 
+  ![CNN Loss and Accuracy](path/to/loss_accuracy_plot.png)
+
+  ![ViT Loss and Accuracy](path/to/loss_accuracy_plot.png)
 - **Confusion Matrix:**
 
-  ![Confusion Matrix](path/to/confusion_matrix.png)
+  ![CNN Confusion Matrix](path/to/confusion_matrix.png)
+
+  ![ViT Confusion Matrix](path/to/confusion_matrix.png)
 
 - **Sample Predictions:**
 
-  ![Sample Predictions](path/to/sample_predictions.png)
+  ![CNN Sample Predictions](path/to/sample_predictions.png)
 
-## Contributing
+  ![ViT Sample Predictions](path/to/sample_predictions.png)
 
-We welcome contributions! If you have any suggestions for improvements or find any issues, please submit a PR or issue.
+## Reference
 
-1. Fork this repository
-2. Create your feature branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Create a new Pull Request
+[1] Eurosat: A novel dataset and deep learning benchmark for land use and land cover classification. Patrick Helber, Benjamin Bischke, Andreas Dengel, Damian Borth. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2019.
 
-## License
+[2] Introducing EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification. Patrick Helber, Benjamin Bischke, Andreas Dengel. 2018 IEEE International Geoscience and Remote Sensing Symposium, 2018.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+[3]EuroSAT: Land Use and Land Cover Classification with Sentinel-2 https://github.com/phelber/eurosat
+
