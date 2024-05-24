@@ -43,7 +43,7 @@ Clone the repository or download the notebook
     └── ...
     ```
 
-2. Run the Jupyter Notebook to perform model training and evaluation:
+2. Run the Jupyter Notebook to perform model training and evaluation.You can change the values of epoch, test_size, random_state, etc. when using it to run the notebook.
 
 
 ## Project Structure
